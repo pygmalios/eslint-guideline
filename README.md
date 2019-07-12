@@ -18,4 +18,24 @@ To make your project work using configuration in this project, you should instal
 
 ## Integration with Webpack
 
-**TBD**
+To use different kind of configuration for distinct environments you should include specific configuration to your environment-specific webpack configuration rules:
+
+```json
+module: {
+  rules: [
+    {
+      enforce: 'pre',
+      test: /\.jsx?$/,
+      use: [
+        {
+          loader: 'eslint-loader',
+          options: {
+            configFile: path.join(BASE_PATH, '.eslintrc-dev.json')
+          }
+        }
+      ],
+      exclude: /(node_modules)/
+    },
+  ]
+}
+```
