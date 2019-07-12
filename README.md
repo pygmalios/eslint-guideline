@@ -20,7 +20,7 @@ To make your project work using configuration in this project, you should instal
 
 To use different kind of configuration for distinct environments you should include specific configuration to your environment-specific webpack configuration rules:
 
-```json
+```js
 module: {
   rules: [
     {
