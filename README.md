@@ -4,7 +4,7 @@ Configuration provided here differentiates between *Production* and *Development
 
 ## Default setup
 
-Since most of our JS applications are build in **React.js** the basic setup extends the recommended setup of *eslint-plugin-react* as well as recommended options provided by eslint compiler itself.
+Since most of our JS applications are build in **React.js** the basic setup extends the recommended setup of [*eslint-plugin-react*](https://www.npmjs.com/package/eslint-plugin-react#recommended) as well as recommended options provided by [eslint](https://eslint.org/docs/rules/) compiler itself.
 
 ## Used plugins
 
