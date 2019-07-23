@@ -31,11 +31,9 @@
     "comma-dangle": ["error", "never"],
     "complexity": ["error", 4],
     "consistent-return": "error",
-    "constructor-super": "error",
-    "curly": "off",
     "default-case": "error",
     "dot-notation": ["warn", { "allowKeywords": true }],
-    "func-names": "error",
+    "func-names": ["error", "never"],
     "func-style": ["error", "declaration", { "allowArrowFunctions": true }],
     "global-require": "warn",
     "init-declarations": "error",
@@ -97,12 +95,10 @@
     "require-yield": "error",
     "semi": "error",
     "space-infix-ops": "error",
-    "strict": "off",
     "use-isnan": "warn",
     "wrap-iife": "error",
     "yoda": "error",
     
-    "import/extensions": "off",
     "import/named": "error",
     "import/no-extraneous-dependencies": [
       "warn", 
@@ -112,14 +108,12 @@
         "peerDependencies": true
       }
     ],
-    "import/no-named-as-default": "off",
     "import/no-unresolved": "error",
-    "import/prefer-default-export": "off",
 
     "jsx-a11y/alt-text": "error",
     "jsx-a11y/anchor-has-content": ["error"],
     "jsx-a11y/interactive-supports-focus": "error",
-    "jsx-a11y/label-has-associated-control": "error",
+    "jsx-a11y/label-has-associated-control": ["error"],
     "jsx-a11y/mouse-events-have-key-events": "error",
 
     "react/default-props-match-prop-types": "error",
